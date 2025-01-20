@@ -1,9 +1,9 @@
 # Time Series Forecasting Project
 
-# Overview
+## Overview
 
 This project involves time series analysis and forecasting using various statistical and deep learning techniques. The dataset consists of hourly count data collected over a period, and we aim to preprocess, visualize, and apply models such as ARIMA, SARIMA, and LSTMs to predict future values.
-# Author
+## Author
 
 Sonam Thinley
 # Dataset
