@@ -1,10 +1,12 @@
-Time Series Forecasting Project
+# Time Series Forecasting Project
 
-Overview
+# Overview
 
 This project involves time series analysis and forecasting using various statistical and deep learning techniques. The dataset consists of hourly count data collected over a period, and we aim to preprocess, visualize, and apply models such as ARIMA, SARIMA, and LSTMs to predict future values.
+# Author
 
-Dataset
+Sonam Thinley
+# Dataset
 
 The dataset is stored in Train.csv and contains three columns:
 
@@ -14,7 +16,7 @@ Datetime: Timestamp
 
 Count: The observed value
 
-Project Steps
+# Project Steps
 
 1. Data Import and Exploration
 
@@ -52,7 +54,7 @@ Use ACF and PACF plots to determine the optimal parameters for ARIMA and SARIMA 
 
 7. Time Series Models
 
-ARIMA Model
+# ARIMA Model
 
 Fit an ARIMA model with determined parameters.
 
@@ -60,7 +62,7 @@ Forecast future values and compare with the test set.
 
 Compute RMSE to evaluate performance.
 
-SARIMA Model
+# SARIMA Model
 
 Extend ARIMA to Seasonal ARIMA (SARIMA) by incorporating seasonality.
 
@@ -68,7 +70,7 @@ Fit the model and visualize the predictions.
 
 Compute RMSE for performance comparison.
 
-LSTM Model
+# LSTM Model
 
 Implement an LSTM-based neural network for time series forecasting.
 
@@ -93,13 +95,13 @@ Train the LSTM model on the time series data and evaluate RMSE.
 
 Visualize the predictions against actual values.
 
-Dependencies
+# Dependencies
 
 Ensure the following Python libraries are installed before running the notebook:
 
 pip install numpy pandas matplotlib statsmodels torch
 
-Running the Code
+# Running the Code
 
 Clone the repository:
 
@@ -108,18 +110,16 @@ cd <repo_name>
 
 Run the Jupyter Notebook or Python script to execute the analysis.
 
-Results
+# Results
 
 The best-performing model is determined based on RMSE.
 
 Forecasting results are visualized to assess the accuracy.
 
-Future Improvements
+# Future Improvements
 
 Experiment with additional models such as GRUs and Transformers for better forecasting.
 
 Fine-tune hyperparameters for improved model performance.
 
-Author
 
-Sonam Thinley
